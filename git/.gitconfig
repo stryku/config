@@ -6,7 +6,7 @@
 	st = status
 	df = diff
 	cm = commit -v -m
-	cm = rev-list --all --count
+	cmcount = rev-list --all --count
 	aa = add --all .
 	last = log -1 HEAD
 	cb = checkout -b
