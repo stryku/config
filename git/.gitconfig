@@ -14,23 +14,24 @@
 	bd = branch -d
 	mnf = merge --no-ff
 	addtl = commit --amend -C HEAD
+	cam = commit --amend -m
     lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
 [core]
 	# Don't paginate output by default
 	pager = cat
 	#
-	# Out of luck: on Windows w/o msysGit? You may have Notepad++â€¦
+	# Out of luck: on Windows w/o msysGit? You may have Notepad++…
 	# editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
-	# 
+	#
 	# If you want to use Sublime Text 2's subl wrapper:
 	# editor = subl -w
-	# 
+	#
 	# Or Atom, perhaps:
 	# editor = atom --wait
-	# 
+	#
 	# Sublime Text 2 on Windows:
 	# editor = 'c:/Program Files (x86)/Sublime Text 2/sublime_text.exe' -w
-	# 
+	#
 	# Sublime Text 3 on Windows:
 	# editor = 'c:/Program Files/Sublime Text 3/subl.exe' -w
 	#
@@ -69,7 +70,7 @@
 	# Auto-accept file prompts when launching merge tools
 	prompt = false
 [pull]
-	# This is GREATâ€¦ when you know what you're doing and are careful
+	# This is GREAT… when you know what you're doing and are careful
 	# not to pull --no-rebase over a local line containing a true merge.
 	# rebase = true
 	# WARNING! This option, which does away with the one gotcha of
