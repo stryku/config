@@ -12,4 +12,5 @@ git config --global alias.addtl "commit --amend -C HEAD"
 git config --global alias.ri "rebase -i"
 git config --global alias.fp "fetch -p"
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+git config --global alias.cmcount "rev-list --all --count"
 
