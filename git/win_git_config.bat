@@ -1,1 +1,0 @@
-configimpl.bat
