@@ -15,3 +15,5 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 git config --global alias.cmcount "rev-list --all --count"
 git config --global alias.rsweep "remote update origin --prune"
 git config --global alias.tl "tag --list"
+git config --global alias.com "checkout master"
+
