@@ -1,0 +1,49 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "python.venvFolders": [
+        "~/my/programming/py/venvs"
+    ],
+    "editor.renderWhitespace": "all",
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/*.a": true,
+        "**/*.a.cmd": true,
+        "**/*.mod": true,
+        "**/*.mod.cmd": true,
+        "**/*.o": true,
+        "**/*.o.cmd": true,
+        "**/*.order": true,
+        "**/*.order.cmd": true
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.startupEditor": "newUntitledFile",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format-11",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "cmake.configureArgs": [
+        "-DBoost_INCLUDE_DIR=/opt/boost/1.74.0/include",
+        "-DCMAKE_CXX_COMPILER=g++-7",
+        "-DBOOST_LIBRARYDIR=/opt/boost/1.74.0/lib",
+        "-DBOOST_ROOT=/opt/boost/1.74.0/"
+    ],
+    "editor.largeFileOptimizations": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "files.maxMemoryForLargeFilesMB": 8192,
+    "editor.maxTokenizationLineLength": 300,
+    "cmake.parallelJobs": 8,
+    "cmake.configureOnEdit": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "cmake.buildDirectory": "${workspaceFolder}/../build-debug",
+    "cmake.outputLogEncoding": "autog",
+    "cmake.generator": "Unix Makefiles",
+    "cmake.configureOnOpen": false,
+    "window.zoomLevel": 1
+}
