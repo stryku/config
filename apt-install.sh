@@ -2,4 +2,8 @@
 
 sudo apt install -y \
     texlive-latex-recommended \
-    pandoc
+    pandoc \
+    vim \
+    git \
+    cmake 
+
