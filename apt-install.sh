@@ -5,5 +5,6 @@ sudo apt install -y \
     pandoc \
     vim \
     git \
-    cmake 
+    cmake \
+    htop
 
