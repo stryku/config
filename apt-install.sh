@@ -6,5 +6,6 @@ sudo apt install -y \
     vim \
     git \
     cmake \
+    figlet \
     htop
 
