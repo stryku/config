@@ -7,5 +7,13 @@ sudo apt install -y \
     git \
     cmake \
     figlet \
-    htop
+    htop \
+    zsh
+
+chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+figlet manual
+echo "VS code: https://code.visualstudio.com/download"
+echo "double commander: ubuntu sofrware"
 
